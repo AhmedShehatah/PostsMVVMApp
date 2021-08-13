@@ -1,0 +1,8 @@
+package com.ahmed.postsmvvmapp.data.model
+
+data class PostModel(
+    val userId: Int,
+    val id: Int,
+    val title: String,
+    val body: String
+)
